@@ -81,7 +81,7 @@ def greeting(event):
                              ,messages=[TEXT_TO_REPLY,TEXT_TO_REPLY_2])
     
     line_bot_api.link_rich_menu_to_user(user_id = USER_ID,
-                                        rich_menu_id = "richmenu-049a134e0e7145e004f9eaf7f5e7db42")
+                                        rich_menu_id = "richmenu-543192894271b8c30b00b31414cc1337")
 
 
 if __name__ == "__main__":

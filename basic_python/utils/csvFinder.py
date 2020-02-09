@@ -141,7 +141,7 @@ class csvFinder():
                     if val == value:
                         print("found data at key:" + str(key) )
                         print("found data at row:" + str(num+2) )
-                        data = {"row" : num , "true_row" : num+2 , "col_name" : key , "col_to_find" : col_to_find , "search_type" : "pure" , "score" :1000 }
+                        data = {"row" : num , "true_row" : num+2 , "col_name" : key , "col_to_find" : col_to_find , "search_type" : "pure" , "score" :800 }
                         found_data.append(data)
                         num_found += 1
                     
